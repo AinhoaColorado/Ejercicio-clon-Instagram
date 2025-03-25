@@ -1,0 +1,154 @@
+/* Primero se resetean los estilos */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #262626;
+}
+
+/* FIN de reseteo de estilos */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 200px;
+  line-height: 24px;
+  background-color: #fafafa;
+}
+
+/*HEADER*/
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 73px 0px 44px 0px;
+  min-height: 100px;
+  background-color: #d78ee9;
+}
+
+.cabecera {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  padding: 0px 101px 0px 71px;
+  background-color: #ffdbcb;
+}
+
+.verde {
+  padding: 14px 0px;
+  background-color: #7bff98;
+  width: 613px;
+  height: 150px;
+}
+
+.amarillo {
+  display: flex;
+  align-items: center;
+  background-color: #ffc700;
+  padding: 4px 0px;
+  width: 613px;
+  height: 40px;
+}
+
+.naranja {
+  background-color: #ff852d;
+}
+
+.info-header {
+  display: flex;
+  padding: 20px 0px;
+}
+
+.info-header h2 {
+  padding: 0px 40px 0px 5px;
+}
+
+.rojo {
+  background-color: #d85151;
+  display: flex;
+  align-items: flex-end;
+}
+/*TITULO, BOTON Y PUNTOS*/
+
+h1 {
+  font-size: 28;
+  font-weight: 330; /*Semilight*/
+}
+
+button {
+  background-color: #0095f6;
+  color: #ffffff;
+  border: none;
+  font-size: 14px;
+  font-weight: 355px; /*Semibold*/
+  padding: 6px 24px;
+  border-radius: 4px;
+  margin: 1px 0px 1px 20px;
+}
+
+.info-header h3 {
+  font-size: 16px;
+  font-weight: 10000005px;
+
+  /* NO ENTIENDO POR QUE NO CAMBIA DE GROSOR */
+}
+
+.info-header h2 {
+  font-size: 16px;
+  font-weight: 320; /*Regular*/
+}
+
+.rojo {
+  font-size: 16px;
+  font-weight: 05px; /*Semibold*/
+}
+
+/* NO ENTIENDO POR QUE NO CAMBIA DE GROSOR */
+
+.lateral {
+  background-color: #ec8484;
+  display: flex;
+  position: relative;
+  width: 244px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 100%;
+  /* background-color: #FFFFFF; */
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.logo {
+  padding: 45px 23px 30px;
+}
+
+.lateral a {
+  margin: 12px 125.11px 12px 12px;
+  padding: 0px 0px 0px 16px;
+  display: flex;
+}
+
+.lateral h3 {
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: lighter;
+  padding-left: 16px;
+}
+
+/* CAMBIAR LO DE LIGHTER */
+
+.musgo {
+  background-color: #4bbf41;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0px 0px 44px 48px;
+}
