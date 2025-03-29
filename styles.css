@@ -6,77 +6,77 @@
   box-sizing: border-box;
   text-decoration: none;
   color: #262626;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* FIN de reseteo de estilos */
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 20px;
-  font-weight: 200px;
-  line-height: 24px;
-  background-color: #fafafa;
+  background-color: #3315cd;
+  display: flex;
+  margin-left: 249px;
+  margin-right: 492px;
 }
+
+/* PARTE LATERAL IZQUIERDA NAV */
+
+nav {
+  display: flex;
+}
+
+.lateral {
+  background-color: #ec8484;
+  display: flex;
+  flex-direction: column;
+  width: 244px;
+  height: auto;
+  font-family: roboto; /*IGUAL TENGO QUE DESCARGARLA DE GOOGLE FONTS*/
+  font-size: 16px;
+}
+
+.lateral a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 0px 0px 24px;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-right: 118px;
+  margin-bottom: 30px;
+  padding-top: 24px;
+}
+
+a p {
+  padding: 12px 125.11px 12px 12px;
+}
+
+/* FIN DE PARTE LATERAL IZQUIERDA NAV */
 
 /*HEADER*/
 
 header {
+  background-color: #d78ee9;
+  padding-top: 73px;
+  padding-bottom: 44px;
+  width: 935px;
+  height: 267px;
   display: flex;
   justify-content: center;
-  padding: 73px 0px 44px 0px;
-  min-height: 100px;
-  background-color: #d78ee9;
-}
-
-.cabecera {
-  display: flex;
-  align-items: center;
 }
 
 .avatar {
-  padding: 0px 101px 0px 71px;
   background-color: #ffdbcb;
+  padding-left: 71px;
+  padding-right: 101px;
 }
 
 .verde {
-  padding: 14px 0px;
   background-color: #7bff98;
+  padding: 14px 0px;
   width: 613px;
   height: 150px;
-}
-
-.amarillo {
-  display: flex;
-  align-items: center;
-  background-color: #ffc700;
-  padding: 4px 0px;
-  width: 613px;
-  height: 40px;
-}
-
-.naranja {
-  background-color: #ff852d;
-}
-
-.info-header {
-  display: flex;
-  padding: 20px 0px;
-}
-
-.info-header h2 {
-  padding: 0px 40px 0px 5px;
-}
-
-.rojo {
-  background-color: #d85151;
-  display: flex;
-  align-items: flex-end;
-}
-/*TITULO, BOTON Y PUNTOS*/
-
-h1 {
-  font-size: 28;
-  font-weight: 330; /*Semilight*/
 }
 
 button {
@@ -90,65 +90,104 @@ button {
   margin: 1px 0px 1px 20px;
 }
 
-.info-header h3 {
-  font-size: 16px;
-  font-weight: 10000005px;
-
-  /* NO ENTIENDO POR QUE NO CAMBIA DE GROSOR */
+.amarillo {
+  background-color: #ffc700;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  width: 613px;
+  height: 40px;
 }
 
-.info-header h2 {
+h1 {
+  font-weight: normal;
+  font-size: 28px;
+}
+
+.naranja {
+  background-color: #ff852d;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  width: 613px;
+  height: 58px;
+}
+
+.naranja > h3 {
   font-size: 16px;
-  font-weight: 320; /*Regular*/
+}
+
+.naranja h2 {
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .rojo {
-  font-size: 16px;
-  font-weight: 05px; /*Semibold*/
+  background-color: #d85151;
+  display: flex;
+  align-items: center;
+  padding: 4px 0px;
+  width: 613px;
+  height: 24px;
 }
 
-/* NO ENTIENDO POR QUE NO CAMBIA DE GROSOR */
+.rojo h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
 
-.lateral {
-  background-color: #ec8484;
-  display: flex;
-  position: relative;
-  width: 244px;
+/* FIN DE PARTE HEADER */
+
+/*PARTE CENTRAL*/
+
+main {
+  background-color: #fafafa;
+  width: 935px;
   display: flex;
   flex-direction: column;
-  position: absolute;
-  height: 100%;
-  /* background-color: #FFFFFF; */
+  flex-wrap: wrap;
+  align-content: center;
 }
 
-nav {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-}
-.logo {
-  padding: 45px 23px 30px;
-}
-
-.lateral a {
-  margin: 12px 125.11px 12px 12px;
-  padding: 0px 0px 0px 16px;
-  display: flex;
-}
-
-.lateral h3 {
-  font-family: roboto;
-  font-size: 16px;
-  font-weight: lighter;
-  padding-left: 16px;
-}
-
-/* CAMBIAR LO DE LIGHTER */
+/* PARTE SUPERIOR STORIES */
 
 .musgo {
   background-color: #4bbf41;
   display: flex;
   justify-content: center;
+  flex-direction: row;
   align-items: flex-end;
-  padding: 0px 0px 44px 48px;
+  padding-left: 48px;
+  padding-bottom: 44px;
+  width: 548px;
+  height: 174px;
+}
+
+.story {
+  padding: 11px 23px;
+}
+
+.musgo h3 {
+  padding: 15px 11px 0px 11px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/*NAV2*/
+
+.nav2 {
+  background-color: #921699;
+  height: 53px;
+  width: 935px;
+  display: flex;
+}
+
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fotos img {
+  display: flex;
+  align-content: flex-end;
 }
