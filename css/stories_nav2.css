@@ -1,0 +1,63 @@
+/* PARTE SUPERIOR STORIES */
+
+.musgo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-left: 48px;
+  padding-bottom: 44px;
+  height: 174px;
+}
+
+.story {
+  padding: 11px 23px;
+}
+
+.musgo h3 {
+  padding: 15px 11px 0px 11px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/*NAV2*/
+
+.nav2 {
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-top: 1px solid #dbdbdb;
+}
+
+.nav2 p {
+  font-size: 12px;
+}
+
+.nav2 a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 0px 0px 24px;
+}
+
+.nav2 a[selected] {
+  border-top: 1px solid #262626;
+  font-weight: 500;
+}
+
+.fotos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.fotos img {
+  width: 100%;
+  aspect-ratio: 1;
+  transition: box-shadow .3s;
+}
+
+.fotos img:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  cursor: pointer;
+}

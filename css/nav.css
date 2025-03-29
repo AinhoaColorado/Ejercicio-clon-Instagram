@@ -1,0 +1,33 @@
+/* PARTE LATERAL IZQUIERDA NAV */
+
+nav {
+  display: flex;
+  background-color: #ffffff;
+  }
+
+.lateral {
+  display: flex;
+  flex-direction: column;
+  font-family: roboto;
+  font-size: 16px;
+}
+
+.lateral a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 0px 0px 24px;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-right: 118px;
+  margin-bottom: 30px;
+  padding-top: 24px;
+}
+
+a p {
+  padding: 12px;
+}
+
+/* FIN DE PARTE LATERAL IZQUIERDA NAV */

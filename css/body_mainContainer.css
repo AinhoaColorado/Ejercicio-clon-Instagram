@@ -1,0 +1,18 @@
+/*BODY*/
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+}
+
+/*BODY*/
+
+/*MAIN CONTAINER*/
+
+.mainContainer {
+  max-width: 935px;
+  flex-wrap: wrap;
+}
+
+/*MAIN CONTAINER*/
